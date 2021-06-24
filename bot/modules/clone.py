@@ -18,7 +18,7 @@ from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 from tenacity import *
 
-from bot.config import IS_TEAM_DRIVE, \
+from config import IS_TEAM_DRIVE, \
             USE_SERVICE_ACCOUNTS, GDRIVE_FOLDER_ID, INDEX_URL
 from bot.fs_utils import get_mime_type
 
